@@ -8,6 +8,7 @@ export default {
       xs: "468px",
       md: "992px",
       lg: "1024px",
+      xlg: "1280px",
       xl: "1440px"
     },
     extend: {},
