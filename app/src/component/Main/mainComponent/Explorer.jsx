@@ -1,25 +1,12 @@
-function Main(){
+import { FaAngleLeft, FaAngleRight, FaSearch } from "react-icons/fa";
+
+function Explorer(){
     return(
         <>
-            <div className="relative">
-                <div class="my-auto py-8 pb-3 flex flex-col sm:flex-row items-center justify-center">
-                    <div class="flex sm:items-center">
-                        <span class="bg-brand-secondary h-fit p-2 rounded-md mr-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="inline-block" role="presentation" aria-hidden="true">
-                                <path d="M11 5.88218V19.2402C11 20.2121 10.2121 21 9.24018 21C8.49646 21 7.83302 20.5325 7.58288 19.8321L5.43647 13.6829M18 13C19.6569 13 21 11.6569 21 10C21 8.34315 19.6569 7 18 7M5.43647 13.6829C4.0043 13.0741 3 11.6543 3 10C3 7.79086 4.79086 6 6.99999 6H8.83208C12.9327 6 16.4569 4.7659 18 3L18 17C16.4569 15.2341 12.9327 14 8.83208 14L6.99998 14C6.44518 14 5.91677 13.887 5.43647 13.6829Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </span>
-                        <div>
-                            <span class="text-gray-700">Real Hiring Results. Zero Cost. </span>
-                            <span class="text-link-500 font-medium">
-                                <a href="https://www.jobberman.com/account/employer/jobs/create#/post-a-job-basic-listing" target="_self">Post your Job openings For FREE on Jobberman</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className="relative bg-purple-700 py-12">
+            
+            <div className="relative bg-purple-700 py-12">
                     <h1 className="text-center xl:text-6xl xl:w-2/12 border-2 xl:w-5/12 xl:w-4/12 mx-auto pb-14 xxxs:text-white font-bold xxxs:text-5xl xxxs:text-center xxxs:w-11/12">Explore and discover the right job for you!</h1>
-                    <div className="py-2 bg-purple-400">
+                    <div className="py-2` bg-purple-400">
                         <select>
                             <option>Any Job Functions</option>
                             <option>Accounting, Auditing & Finance</option>
@@ -109,10 +96,62 @@ function Main(){
                             <option>Maiduguri & Borno State</option>
                             <option>Port Harcourt & River State</option>
                         </select>
+                        <select>
+                            <option>Any Experience Levels</option>
+                        </select>
+                        <div>
+                            <button>
+                                <span>Find a Job</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Recent searches</span>
+                        <div className="relative"> {/** carousel  */}
+                            <div className="inline-flex">
+                                <button>
+                                    <FaAngleLeft className="text-white"/>
+                                </button>
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">Remote (Work from Home)</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">Contract</span>
+                                </div>
+                                
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">NGO, NPO & Charity</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">Banking, Finance & Insurance</span>
+                                </div>
+                                
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">Abuja</span>
+                                </div>
+                                
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">IT & Telecoms</span>
+                                </div>
+                                
+                                <div className="flex items-center">
+                                    <FaSearch className="text-white" />
+                                    <span className="text-white">Rest of Nigeria</span>
+                                </div>
+                                <button>
+                                    <FaAngleRight className="text-white" />
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </>
     )
 }
-export default Main;
+export default Explorer;
