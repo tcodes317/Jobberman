@@ -121,67 +121,68 @@ function Explorer(){
                     </div>
                     <div className="py-6">
                         <span className="text-white ml-5">Recent searches</span>
-                        <div className="relative mt-6 border-2 xxxs:w-7/12 xxxs:mx-auto"> {/** carousel  */}
+                        <div className="relative mt-6 xxxs:w-7/12 xxxs:mx-auto"> {/** carousel  */}
                             <div className="inline-flex">
                                 <button className="xxxs:w-4/12 absolute left-0" id="btn_a">
                                     <FaAngleLeft className="text-white text-3xl"/>
                                 </button>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Remote (Work from Home)</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Contract</span>
-                                </div>
-                                
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">NGO, NPO & Charity</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Banking, Finance & Insurance</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Abuja</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">IT & Telecoms</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Rest of Nigeria</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">NGO, NPO & Charity</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Part Time</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Contract</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Abuja</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Remote (Work From Home)</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Enforcement & Security</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <FaSearch className="text-white" />
-                                    <span className="text-white">Healthcare</span>
+                                <div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Remote (Work from Home)</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Contract</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">NGO, NPO & Charity</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Banking, Finance & Insurance</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Abuja</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">IT & Telecoms</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Rest of Nigeria</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">NGO, NPO & Charity</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Part Time</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Contract</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Abuja</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Remote (Work From Home)</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Enforcement & Security</span>
+                                    </div>
+                                    <div className="flex items-center truncate">
+                                        <FaSearch className="text-white" />
+                                        <span className="text-white">Healthcare</span>
+                                    </div>
                                 </div>
                                 <button id="btn_b" className="right-0 absolute">
                                     <FaAngleRight className="text-white" />
