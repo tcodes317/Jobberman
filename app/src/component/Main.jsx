@@ -18,7 +18,7 @@ function Main(){
                     </div>
                 </div>
                 <div className="relative bg-purple-700 py-12">
-                    <h1 className="text-center text-6xl xlg:w-6/12 xl:w-5/12 xl:w-4/12 mx-auto pb-14 text-white font-bold xxxs:text-5xl xxxs:text-center xxxs:w-11/12">Explore and discover the right job for you!</h1>
+                    <h1 className="text-center xl:text-6xl xl:w-2/12 border-2 xl:w-5/12 xl:w-4/12 mx-auto pb-14 xxxs:text-white font-bold xxxs:text-5xl xxxs:text-center xxxs:w-11/12">Explore and discover the right job for you!</h1>
                     <div className="py-2 bg-purple-400">
                         <select>
                             <option>Any Job Functions</option>
@@ -67,16 +67,47 @@ function Main(){
                             <option>Law & Compliance</option>
                             <option>Manufacturing & Warehousing</option>
                             <option>Mining, Energy & Metals</option>
-                            <option>Management & Business Development</option>
-                            <option>Marketing & Communications</option>
-                            <option>Medical & Pharmaceutical</option>
-                            <option>Product & Project Management</option>
-                            <option>Quality Control & Assurance</option>
-                            <option>Research, Teaching & Training</option>
-                            <option>Sales</option>
-                            <option>Software & Data</option>
-                            <option>Supply Chain & Procurement</option>
-                            <option>Trades & Services</option>
+                            <option>NGO, NPO & Charity</option>
+                            <option>Real Estate</option>
+                            <option>Recruitment</option>
+                            <option>Retail, Fashion & FMCG</option>
+                            <option>Shipping & Logistics</option>
+                            <option>Tourism & Travel</option>
+                        </select>
+                        
+                        <select>
+                            <option>Any Locations</option>
+                            <option>Edo</option>
+                            <option>Sokoto</option>
+                            <option>Gbombe</option>
+                            <option>Yobe</option>
+                            <option>Plateau</option>
+                            <option>Bauchi</option>
+                            <option>Jigawa</option>
+                            <option>Kano</option>
+                            <option>Kaduna</option>
+                            <option>Abia</option>
+                            <option>Akwa Ibom</option>
+                            <option>Delta</option>
+                            <option>Nassarawa</option>
+                            <option>Nationwide</option>
+                            <option>Ondo</option>
+                            <option>Kwara</option>
+                            <option>Anambra</option>
+                            <option>Osun</option>
+                            <option>Ekiti</option>
+                            <option>Abeokuta & Ogun State</option>
+                            <option>Abuja</option>
+                            <option>Bayelsa</option>
+                            <option>Benue</option>
+                            <option>Ebonyi</option>
+                            <option>Enugu</option>
+                            <option>Ibadan & Oyo State</option>
+                            <option>Imo</option>
+                            <option>Katsina</option>
+                            <option>Lagos</option>
+                            <option>Maiduguri & Borno State</option>
+                            <option>Port Harcourt & River State</option>
                         </select>
                     </div>
                 </div>
