@@ -126,7 +126,7 @@ function Explorer(){
                                 <button className="xxxs:w-4/12 absolute left-0" id="btn_a">
                                     <FaAngleLeft className="text-white text-3xl"/>
                                 </button>
-                                <div>
+                                <div className="flex items-center border-2 relative top-4">
                                     <div className="flex items-center truncate">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">Remote (Work from Home)</span>
