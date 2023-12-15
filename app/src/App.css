@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 @media screen and (min-width: "150px"){
 
@@ -29,5 +31,5 @@
 
 }
 @media screen and (min-width: "1440px"){
-    
+
 }
