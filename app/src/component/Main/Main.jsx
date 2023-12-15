@@ -1,4 +1,3 @@
-
 import Explorer from "./mainComponent/Explorer";
 
 function Main(){

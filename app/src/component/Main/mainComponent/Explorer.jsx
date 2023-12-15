@@ -5,9 +5,10 @@ function Explorer(){
         <>
             
             <div className="relative bg-purple-700 py-12">
-                    <h1 className="text-center xl:text-6xl xl:w-2/12 border-2 xl:w-5/12 xl:w-4/12 mx-auto pb-14 xxxs:text-white font-bold xxxs:text-5xl xxxs:text-center xxxs:w-11/12">Explore and discover the right job for you!</h1>
-                    <div className="py-2` bg-purple-400">
-                        <select>
+                    <h1 className="text-center xl:text-6xl xl:w-2/12 xl:w-5/12 xl:w-4/12 xxs:text-3xl mx-auto pb-14 xxxs:text-white font-bold xxxs:text-5xl xxxs:text-center xxxs:w-11/12">Explore and discover the right job for you!</h1>
+                    <div className="px-4 xxxs:space-y-2 xxxs:py-6 py-2 bg-purple-400 xxxs:flex-col xl:flex-row flex justify-center items-center">
+                        <div className="xxxs:w-full">
+                            <select className="p-2 rounded-lg focus:outline-none xxxs:w-full">
                             <option>Any Job Functions</option>
                             <option>Accounting, Auditing & Finance</option>
                             <option>Admin & Office</option>
@@ -35,8 +36,10 @@ function Explorer(){
                             <option>Software & Data</option>
                             <option>Supply Chain & Procurement</option>
                             <option>Trades & Services</option>
-                        </select>
-                        <select>
+                            </select>
+                        </div>
+                        <div className="xxxs:w-full">
+                            <select className="p-2 rounded-lg focus:outline-none xxxs:w-full">
                             <option>Any Industries</option>
                             <option>Advertising, Media & Communications</option>
                             <option>Agriculture, Fishing & Forestry</option>
@@ -60,9 +63,10 @@ function Explorer(){
                             <option>Retail, Fashion & FMCG</option>
                             <option>Shipping & Logistics</option>
                             <option>Tourism & Travel</option>
-                        </select>
-                        
-                        <select>
+                            </select>
+                        </div>
+                        <div className="xxxs:w-full">
+                            <select className="p-2 rounded-lg focus:outline-none xxxs:w-full">
                             <option>Any Locations</option>
                             <option>Edo</option>
                             <option>Sokoto</option>
@@ -95,21 +99,31 @@ function Explorer(){
                             <option>Lagos</option>
                             <option>Maiduguri & Borno State</option>
                             <option>Port Harcourt & River State</option>
-                        </select>
-                        <select>
-                            <option>Any Experience Levels</option>
-                        </select>
-                        <div>
-                            <button>
-                                <span>Find a Job</span>
-                            </button>
+                            <option>Rest of Nigeria</option>
+                            <option>Outside Nigeria</option>
+                            <option>Remote (Work from Home)</option>
+                            </select>
                         </div>
+                        <div className="xxxs:w-full">
+                            <select className="p-2 rounded-lg focus:outline-none xxxs:w-full">
+                            <option>Any Experience Levels</option>
+                            <option>No Experience</option>
+                            <option>Internship & Graduate</option>
+                            <option>Entry level</option>
+                            <option>Mid level</option>
+                            <option>Senior level</option>
+                            <option>Executive level</option>
+                            </select>
+                        </div>
+                        <button className="xxxs:w-full p-2 rounded-lg px-6 text-white w-1/12 bg-blue-500">
+                            <span>Find a Job</span>
+                        </button>
                     </div>
-                    <div>
-                        <span>Recent searches</span>
-                        <div className="relative"> {/** carousel  */}
-                            <div className="inline-flex">
-                                <button>
+                    <div className="py-6">
+                        <span className="text-white ml-5">Recent searches</span>
+                        <div className="relative mt-6"> {/** carousel  */}
+                            <div className="inline-flex xxxs:w-full">
+                                <button className="xxxs:w-4/12">
                                     <FaAngleLeft className="text-white"/>
                                 </button>
                                 <div className="flex items-center">
