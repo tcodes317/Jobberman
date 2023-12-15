@@ -7,7 +7,19 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+}
+body{
     overflow-x: hidden;
+}
+#btn_a,
+#btn_b{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (min-width: "150px"){
 
