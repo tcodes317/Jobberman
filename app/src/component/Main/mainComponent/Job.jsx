@@ -30,11 +30,29 @@ function Job(){
                         </button>
                     </div>
                 </div>
-                <div className="relative">
-                    <div> {/** box */}
+                <div className="relative mx-3 my-4 space-y-4">
+                    <div className="p-3 border-2 rounded-lg"> {/** box */}
                         <h1 className="font-bold">Cross Platform Mobile App Developer</h1>
                         <p>Bakkaz Trading and Investment Ltd</p>
-
+                        <div className="flex items-center flex-wrap mt-4">
+                            <div className="xxxs:mr-2 bg-slate-300 px-2 rounded-md">Lagos</div>
+                            <div className="xxxs:mr-2 bg-slate-300 px-2 rounded-md">Full Time</div>
+                            <div className="bg-slate-300 px-2 mt-2 rounded-md">NGN 150,000 - 250,000</div>
+                        </div>
+                            <div className="block mt-3">1mo</div>
+                    </div>
+                    <div className="p-3 border-2 rounded-lg"> {/** box */}
+                        <div className="my-3">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.85008 3.08333L4.00837 6.92504C3.55276 7.38065 3.55276 8.11935 4.00837 8.57496C4.46398 9.03057 5.20267 9.03057 5.65829 8.57496L9.39991 4.73325C10.3111 3.82203 10.3111 2.34464 9.39991 1.43342C8.48869 0.522194 7.0113 0.522194 6.10008 1.43342L2.35845 5.27513C0.991619 6.64196 0.991619 8.85804 2.35845 10.2249C3.72529 11.5917 5.94137 11.5917 7.3082 10.2249L10.9583 6.58333" stroke="#D42B3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </div>
+                        <h1 className="font-bold">Floor Manager</h1>
+                        <p>Bakkaz Trading and Investment Ltd</p>
+                        <div className="flex items-center flex-wrap mt-4">
+                            <div className="xxxs:mr-2 bg-slate-300 px-2 rounded-md">Lagos</div>
+                            <div className="xxxs:mr-2 bg-slate-300 px-2 rounded-md">Full Time</div>
+                            <div className="bg-slate-300 px-2 mt-2 rounded-md">NGN 75,000 - 150,000</div>
+                        </div>
+                            <div className="block mt-3">1mo</div>
                     </div>
                 </div>
             </div>
