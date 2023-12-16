@@ -1,5 +1,6 @@
 import Explorer from "./mainComponent/Explorer";
 import Job from "./mainComponent/Job";
+import Com from "./mainComponent/Com";
 
 function Main(){
     return(
