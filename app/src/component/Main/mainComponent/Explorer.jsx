@@ -119,43 +119,43 @@ function Explorer(){
                             <span>Find a Job</span>
                         </button>
                     </div>
-                    <div className="py-6">
+                    <div className="py-6 pb-3">
                         <span className="text-white ml-5">Recent searches</span>
-                        <div className="relative mt-6 xxxs:w-7/12 xxxs:mx-auto"> {/** carousel  */}
+                        <div className="relative mt-6 xxxs:mx-auto"> {/** carousel  */}
                             <div className="inline-flex">
-                                <button className="xxxs:w-4/12 absolute left-0" id="btn_a">
+                                <button className="hidden xxxs:w-4/12 absolute left-0 z-10" id="btn_a">
                                     <FaAngleLeft className="text-white text-3xl"/>
                                 </button>
-                                <div className="flex items-center border-2 relative top-4">
-                                    <div className="flex items-center truncate">
+                                <div id="tyu" className="flex items-center relative">
+                                    <div className="flex items-center truncate p-4">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">Remote (Work from Home)</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate p-4">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">Contract</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate p-4">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">NGO, NPO & Charity</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate p-4">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">Banking, Finance & Insurance</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate p-4">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">Abuja</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate bg-white p-4">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">IT & Telecoms</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate p-4 text-black">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">Rest of Nigeria</span>
                                     </div>
-                                    <div className="flex items-center truncate">
+                                    <div className="flex items-center truncate p-4 text-black">
                                         <FaSearch className="text-white" />
                                         <span className="text-white">NGO, NPO & Charity</span>
                                     </div>

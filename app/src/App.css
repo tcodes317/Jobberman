@@ -11,15 +11,23 @@
 body{
     overflow-x: hidden;
 }
+#btn_a{
+    box-shadow: 10px 0px 10px 5px blueviolet;
+}
 #btn_a,
 #btn_b{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    top: 4px;
     border-radius: 100px;
-    background-color: orange;
+    background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#btn_b{
+    background-color: blueviolet;
+    box-shadow: -10px 0px 10px 5px blueviolet;
 }
 @media screen and (min-width: "150px"){
 

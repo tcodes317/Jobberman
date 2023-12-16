@@ -1,4 +1,5 @@
 import Explorer from "./mainComponent/Explorer";
+import Job from "./mainComponent/Job";
 
 function Main(){
     return(
@@ -20,6 +21,7 @@ function Main(){
                     </div>
                 </div>
                 <Explorer />
+                <Job />
             </div>
         </>
     )
