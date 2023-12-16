@@ -23,6 +23,7 @@ function Main(){
                 </div>
                 <Explorer />
                 <Job />
+                <Com />
             </div>
         </>
     )

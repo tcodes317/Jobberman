@@ -25,6 +25,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+#slider{
+    width: 100%;
+    background-color: white;
+}
+#slider div{
+    width: 80px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 100px;
+}
 #btn_b{
     background-color: blueviolet;
     box-shadow: -10px 0px 10px 5px blueviolet;
