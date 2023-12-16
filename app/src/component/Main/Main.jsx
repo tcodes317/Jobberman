@@ -1,6 +1,7 @@
 import Explorer from "./mainComponent/Explorer";
 import Job from "./mainComponent/Job";
 import Com from "./mainComponent/Com";
+import Comm from "./mainComponent/Comm";
 
 function Main(){
     return(
@@ -24,6 +25,7 @@ function Main(){
                 <Explorer />
                 <Job />
                 <Com />
+                <Comm />
             </div>
         </>
     )

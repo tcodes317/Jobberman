@@ -1,8 +1,8 @@
 function Com(){
     return(
         <>
-            <div className="relative">
-                <h1>Companies currently hiring in Nigeria</h1>
+            <div className="relative px-4">
+                <h1 className="text-center text-3xl font-bold my-10 mt-14">Companies currently hiring in Nigeria</h1>
                 <div className="space-x-4 inline-flex">
                     <img src="https://i.roamcdn.net/kazi/ng/base/299b9b32aa6cb607193959110a53d3b4/-/advertiser-img-ng-jobs-prod/dealer-images/advid49888/adv49888_1690807214.jpg" alt="" />
                     <img src="https://i.roamcdn.net/kazi/ng/base/244563e41b9fc89433d151fd1ff2bbff/-/advertiser-img-ng-jobs-prod/dealer-images/advid205887/adv205887_1588672188.jpg" alt="" />
@@ -16,9 +16,9 @@ function Com(){
                 <div id="slider" className="w-full">
                     <div></div>
                 </div>
-                <div className="mt-8">
-                    <button className="xxxs:w-full xxxs: border-blue-400">
-                        <span>View All Companies Hiring</span>
+                <div className="mt-8 mb-8">
+                    <button className="xxxs:w-full xxxs: border-2 border-blue-400 rounded-lg py-6">
+                        <span className="">View All Companies Hiring</span>
                     </button>
                 </div>
             </div>
